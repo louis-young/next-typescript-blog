@@ -9,6 +9,6 @@ ls:
   .md: kebab-case
 ignore:
   - node_modules
-  - ./.next
-  - ./pages
-  - ./node_modules
+  - .next
+  - pages
+  - out

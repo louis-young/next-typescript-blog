@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "incremental": true
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "out", ".next"],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
