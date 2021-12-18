@@ -1,3 +1,3 @@
-# Website
+# Next TypeScript Blog
 
-A personal portfolio website.
+A Next.js TypeScript blog template.
