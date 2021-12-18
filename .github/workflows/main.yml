@@ -14,6 +14,7 @@ jobs:
         run: |
           npm ci # Clean install dependencies.
           npm run typecheck # Run TypeScript compiler.
+          npm run lint:ls # Run file system linter.
           npm run format # Run formatter.
-          npm run lint # Run linter.
+          npm run lint # Run code linter.
           npm run build # Run build.
