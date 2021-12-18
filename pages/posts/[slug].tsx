@@ -9,7 +9,7 @@ import Layout from "../../components/layout";
 import { getAllPosts, getPostBySlug } from "../../api";
 import PostTitle from "../../components/post-title";
 import { markdownToHtml } from "../../utilities/markdownToHtml";
-import { PostType } from "../../types/post";
+import type { PostType } from "../../types/post";
 
 type Props = {
   post: PostType;

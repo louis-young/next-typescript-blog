@@ -1,4 +1,4 @@
-import { PostType } from "../types/post";
+import type { PostType } from "../types/post";
 import PostPreview from "./post-preview";
 
 type Props = {
