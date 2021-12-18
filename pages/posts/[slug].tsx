@@ -6,9 +6,9 @@ import PostBody from "../../components/post-body";
 import Header from "../../components/header";
 import PostHeader from "../../components/post-header";
 import Layout from "../../components/layout";
-import { getAllPosts, getPostBySlug } from "../../api";
+import { getAllPosts, getPostBySlug } from "../../utilities/posts";
 import PostTitle from "../../components/post-title";
-import { markdownToHtml } from "../../utilities/markdownToHtml";
+import { markdownToHtml } from "../../utilities/posts";
 import type { PostType } from "../../types/post";
 
 type Props = {

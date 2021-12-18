@@ -4,8 +4,8 @@ import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPosts } from "../api";
 import type { PostType } from "../types/post";
+import { getAllPosts } from "../utilities/posts";
 
 type Props = {
   allPosts: PostType[];

@@ -1,5 +1,7 @@
 import fs from "fs";
 import { join } from "path";
+import remark from "remark";
+import html from "remark-html";
 import matter from "gray-matter";
 import type { Items } from "./types";
 
@@ -44,4 +46,10 @@ export const getAllPosts = (fields: string[] = []) => {
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 
   return posts;
+};
+
+export const markdownToHtml = async (markdown: string) => {
+  const result = await remark().use(html).process(markdown);
+
+  return result.toString();
 };
