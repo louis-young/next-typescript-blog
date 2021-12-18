@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"./src/**/*.{ts,tsx,js,jsx,json,md,mdx}\"",
+    "lint": "eslint \"./**/*.{ts,tsx,js,jsx,json,md,mdx}\"",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --check \"./**/*.{ts,tsx,js,jsx,json,md,mdx}\"",
     "format:write": "prettier --write \"./**/*.{ts,tsx,js,jsx,json,md,mdx}\"",
@@ -34,7 +34,6 @@
     "eslint-config-airbnb": "^19.0.1",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.0"
   }
